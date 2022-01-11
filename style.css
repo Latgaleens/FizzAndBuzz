@@ -5,6 +5,8 @@ html.body{
 
 body{
     background-image: url(https://i.pinimg.com/originals/fa/a3/bc/faa3bca49bacaf8c53ff309df694fe88.jpg);
+     background-repeat: no-repeat;
+        background-size: auto;
   }
 /*header*/
 header {
