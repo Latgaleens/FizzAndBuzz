@@ -1,1 +1,229 @@
+html.body{
+    margin:10;
+    padding:10;
+}
 
+body{
+    background-image: url("https://jooinn.com/images/denim-black-17.jpg");
+  }
+/*header*/
+header {
+    max-width: 100%;
+    min-width: 100%;
+      text-align:center;
+      padding-top:10px;
+      padding-bottom: 10px;
+      background-position: center;
+  }
+  /*=====================================================================================================================*/
+#container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0);
+    text-align:center;
+}
+
+#elements {
+    display: grid;
+  grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  
+}
+.FizzBuzz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border-radius:4px;
+    border:1px solid #bbb;
+
+    transition: all 0.3s linear;
+    background: linear-gradient(to top, #ff723a 0%,#ff5709 100%); /* W3C */
+}
+
+.FizzBuzz:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.Fizz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    
+    transition: all 0.3s linear;
+    background: linear-gradient(to top, #ffd900 0%,#fff134 100%); /* W3C */
+    }
+    
+    .Fizz:hover {
+        box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    }
+
+.Buzz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border-radius:4px;
+    border:1px solid #bbb;
+
+    transition: all 0.3s linear;
+    background: linear-gradient(to top, #ffa115 0%,#febf04 100%); /* W3C */
+}
+
+.Buzz:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.Empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border-radius:4px;
+    border:1px solid rgb(255, 255, 255);
+
+    transition: all 0.3s linear;
+    background: linear-gradient(to top, #ffffff 0%,#ffffff 44%,#ffffff 100%); /* W3C */
+}
+
+.num:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+#menuBox {
+    max-width:1350px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:#ffcd43;
+    text-align:center;
+}
+#generate {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 21px;
+    margin: 1px 1px;
+    cursor: pointer;
+    width: 385px;
+ }
+ #generate:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+ }
+
+ #generate2{
+    border: none;
+    color: rgb(0, 0, 0);
+    padding:10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 21px;
+    margin: 1px 1px;
+    cursor: pointer;
+    width: 385px;
+
+ }
+ #generate2:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+ }
+ 
+#clear{
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 21px;
+    margin: 1px 1px;
+    cursor: pointer;
+    width: 385px;
+
+}
+#clear:hover {
+   box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+#valueBox {
+    max-width:1350px;
+    margin: 1.5 em;
+    padding: 0;
+    background-color:#ffee00;
+    text-align:center;
+    display: grid;
+    grid-template-columns: 100px 200px 100px 200px 100px 200px 100px 200px;
+    
+    
+}
+#startValue{
+    border: thick double #000000;;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+#endValue{
+    border: thick double #000000;;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+#fizzValue{
+    border: thick double #000000;;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+#buzzValue{
+    border: thick double #000000;;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/*footer*/
+footer{
+max-width:1350px;
+  margin: 0 auto;
+  padding: 1.5em; 
+  text-align:center;
+}
+h3{
+    color: #000000;
+    display: inline-block;
+    border: 8px;
+    padding:2px;
+}
+
+h4{
+    color: #ffee00;
+    display: inline-block;
+    border: 8px;
+    padding:2px;
+}
